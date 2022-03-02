@@ -11,20 +11,20 @@ Evaluations simlar to the one shown below were conducted with the various models
 The balanced accuracy score is 68%, with high-risk precision at 1% with 62% sensitivity. 
 
 ### SMOTE Model
-Balanced accuracy score is 64%. High risk precision is around 1% with 63% sensitivity so F1 is about 2%. 
+Balanced accuracy score is 63%. High risk precision is around 1% with 63% sensitivity so F1 is about 2%. 
 
 ### ClusterCentroids Model
-Balanced score accuracy is down to 52%, and high risk precision is 1% with around 63% which makes F1 of 1%. Low risk sensitivity is around 40%. 
+Balanced score accuracy is down to around 50%, and high risk precision is 1% with around 63% which makes F1 of 1%. Low risk sensitivity is around 40%. 
 
 ### SMOTEEN Model
-Balanced accuraacy score is around 62%. High risk precision is 1% with 68% sensitivity which means F1 is around 2%. 
-Low risk sensitivity is 57%. 
+Balanced accuraacy score is around 60%. High risk precision is 1% with 68% sensitivity which means F1 is around 2%. 
+Low risk sensitivity is around 55%. 
 
 ### BalancedRandomForestClassifier Model
-Balanced accuracy score is about 79%. High risk precison is low at 4% with 67% sensitivity and F1 at 7%. Low risk sensitivity is 91% with 10% precision. 
+Balanced accuracy score is almost 80%. High risk precison is low at 4% with 67% sensitivity and F1 at 7%. Low risk sensitivity is 91% with 10% precision. 
 
 ### EasyEnsembleClassifier Model
-Balanced accuracy score is 93%. High risk precision is at 7%, and 91% sensiticity and F1 at 14%. The low risk sensitivity is at 94% with 100% precision. 
+Balanced accuracy score is around 90%. High risk precision is under 10%, and 91% sensitivity and F1 at 14%. The low risk sensitivity is almost 95% with 100% precision. 
 
 # Summary
-All models show show weak precision. Models like Ensemble had more responsiveness in terms of readings for high risk credits. Models like EasyEnsembleClassifier have high recall but also falsely detect a lot of low credit risks as high credit risks. Due to the inability for some models to differentiate between high and low risk, I would not recommend the bank to use any of the models to predict credit risk. 
+All models show weak precision. Models like Ensemble had more responsiveness in terms of readings for high risk credits. Models like EasyEnsembleClassifier have high recall but also falsely detect a lot of low credit risks as high credit risks. Due to the inability for some models to differentiate between high and low risk, I would not recommend the bank to use any of the models to predict credit risk. 
